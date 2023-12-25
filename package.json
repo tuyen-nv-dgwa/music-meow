@@ -6,9 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
+    "deploy": "npm run build && npx vite build --base /music-meow/ && npx gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -30,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "node-sass": "9.0.0",
     "sass": "^1.69.5",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-gh-pages": "0.4.1"
   }
 }
