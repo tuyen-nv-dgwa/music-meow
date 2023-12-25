@@ -1,10 +1,11 @@
 import { v4 as uuidv4 } from "uuid";
+
 function chillHop() {
   return [
     {
       name: "Điều Ước Giáng Sinh",
       cover:
-        "https://loremflickr.com/400/400/cats",
+        "./cu1.png",
       artist: "O.lew",
       audio: "https://a128-zmp3.zmdcdn.me/dd6d28fdcfb9abeafcf2f0ff70ada9f0?authen=exp=1703651127~acl=/dd6d28fdcfb9abeafcf2f0ff70ada9f0/*~hmac=6a191d52634d9c7335ebaf2843680468",
       color: ["#CD607D", "#c94043"],

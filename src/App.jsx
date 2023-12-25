@@ -72,6 +72,7 @@ function App() {
         src={currentSong.audio}
         ref={audioRef}
         onEnded={songEndHandler}
+        autoPlay={true}
       ></audio>
       <Snowfall />
       <flying-santa/>
