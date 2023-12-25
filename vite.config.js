@@ -5,5 +5,5 @@ import VitePluginGhPages from 'vite-plugin-gh-pages'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/music-meow/',
-  plugins: [react(),  VitePluginGhPages()],
+  plugins: [react(),  VitePluginGhPages],
 })
