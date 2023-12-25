@@ -82,7 +82,7 @@ const Player = ({
         <p>{getTime(songInfo.currentTime)}</p>
         <div
           style={{
-            background: `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`,
+            background: `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`
           }}
           className="track"
         >

@@ -1,3 +1,30 @@
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes xoayvong {
+  from {
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+  }
+  to {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+  }
+}
+/* Standard syntax */ 
+@keyframes xoayvong {
+  from {
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+  }
+  to {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+  }
+}
+
 .song-container {
   min-height: 60vh;
   display: flex;
@@ -7,6 +34,10 @@
   img {
     width: 20%;
     border-radius: 50%;
+    animation: xoayvong 15s linear 0s infinite;
+    -webkit-animation: xoayvong 15s linear 0s infinite;
+    -moz-animation: xoayvong 15s linear 0s infinite;
+    -o-animation: xoayvong 15s linear 0s infinite; 
   }
   h2 {
     padding: 3rem 1rem 1rem 1rem;
@@ -34,3 +65,5 @@
 .rotateSong {
   animation: rotate 20s linear forwards infinite;
 }
+
+
