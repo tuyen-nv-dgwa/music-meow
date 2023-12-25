@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+@import "./library";
+@import "./player";
+@import "./song";
+@import "./nav";
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+h3,
+h4 {
+  font-weight: 600;
+}
+button {
+  font-weight: 700;
+}
+
+body{
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+
